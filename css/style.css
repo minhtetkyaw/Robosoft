@@ -1,0 +1,459 @@
+/*-----------------------------------------------navbar-----------------------------------------------*/
+#logo{
+	width: 105px;
+	height: 50px;
+}
+.nav-item{
+	font-size: 18px;
+	font-family: Lucida Console;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+main nav{
+    background: #1f1f1f;
+}
+/*----------------------x------------------------navbar------------------------x----------------------*/
+
+/*---------------------------------------------- Home -----------------------------------------------*/
+/* --------------- Site title ---------------- */
+main .home-site-title{
+    background: url("../img/titlebackground7.jpg");
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .home-site-title .home-site-background{
+    padding-top: 19rem;
+    text-align: center;
+}
+
+main .home-site-title h1, h3{
+    font-family: "20th Century Font";
+  	background-color: #010145;
+  	background-image: linear-gradient(220deg, #000000, #ff0019, #08025e);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent; 
+  	-moz-background-clip: text;
+  	-moz-text-fill-color: transparent;
+}
+
+main .home-site-title .btn{
+    margin: 1.8rem;
+    padding: .7rem 2rem;
+    border: 1px solid #cbcacf;
+    border-radius: 30px;
+	background: linear-gradient(-90deg, #CF77F3 0%, #009BFF 47%, #2AC9DB 100%);
+	color: #000000;
+    font-style: bolder;
+}
+
+main .home-site-title .btn:hover{
+    background: #b2d426;
+    color: #ffffff;
+    font-style: bolder;
+}
+
+/* --------x------ Site title --------x------- */
+
+
+/* --------------- Body Carousel ------------ */
+main .home-slide{
+    background: url('../img/Abract02.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+    background-size: 70%;
+}
+
+main .home-slide .slide-post{
+    padding-top: 6rem;
+}
+
+main .slide-post .slide-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 2rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+main .slide-post .slide-content:hover{
+    transition: ;
+}
+
+main .slide-content .slide-title{
+    padding: 1rem 0;
+}
+
+main .slide-content .btn-slide{
+    padding: .7rem 2rem;
+    border-radius: 30px;
+	background: linear-gradient(-90deg, #CF77F3 0%, #009BFF 47%, #2AC9DB 100%);
+    margin: .5rem;
+}
+
+main .slide-content .btn-slide:hover{
+    background: #b2d426;
+    color: #ffffff;
+    font-style: bolder;
+}
+
+section .container .owl-nav{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next{
+    color: var(--text-gray);
+    background: transparent;
+    font-size: 2rem;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover{
+    background: transparent;
+    color: var(--midnight);
+}
+
+.owl-theme .owl-nav [class*='owl-']{
+    outline: none;
+}
+
+/* -------x------- Body Carousel -----x------ */
+/*---------------------------------------------- Home -----------------------------------------------*/
+
+
+
+/*--------------------------------------------- Module ----------------------------------------------*/
+/* --------------- Site title ---------------- */
+main .module-site{
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background: #1f1f1f;
+}
+
+main .module-site-title{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+main .module-site-title h1{
+    color: #b2d426;
+    line-height: 56px;
+    font-family: "Bauhaus 93";
+    font-size: 50px;
+}
+
+main .module-site-dtl{
+    color: #ffffff;
+    text-align: center;
+}
+
+main .module-site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  color: #ffffff;
+  justify-content: center;
+  position: relative;
+}
+
+main .module-site-nav-item {
+    font-size: 17.5px;
+    font-weight: bold;
+    font-family: proxima_nova_rgbold;
+    color: #ffffff;
+    margin-top: 25px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    cursor: pointer;
+    border-bottom: solid #ffffff 0.5px;
+}
+
+main .module-site-nav-item active {
+    color: #ffffff;
+}
+
+main .module-site-nav-item:hover{
+    color: #0064fa;
+}
+
+/*main .module-site-title .row{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}*/
+
+main .row h1{
+    color: #b2d426;
+    line-height: 56px;
+    margin-bottom: 30px;
+    font-family: "Bauhaus 93";
+}
+main .row p{
+    color: #ffffff;
+    margin-top: 15px;
+}
+main .row li{
+    color: #ffffff;
+}
+main .row img{
+    max-width: 100%;
+    height: 98%;
+}
+
+main .breadcrumb{
+    background: #1f1f1f;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+/* --------x------ Site title --------x------- */
+/*--------------------------------------------- Module ----------------------------------------------*/
+
+/*--------------------------------------------- About -----------------------------------------------*/
+/* --------------- Site title ---------------- */
+main .about-site{
+    background-size: cover;
+}
+
+main .about-site{
+    display: flex;
+    justify-content: center;
+    background: #1f1f1f;
+}
+
+main .about-site .section-title{
+    text-align: center;
+    padding-bottom: 38px;
+}
+
+main .about-site .section-body{
+    color: #ffffff;
+}
+main .about-site h2 span{
+    background: url(../img/section-title.png) no-repeat bottom center;
+    padding: 0 20px 20px;
+    font-family: 'Bauhaus 93';
+    font-size: 50px;
+    line-height: 56px;
+    word-spacing: 5px;
+    color: #b2d426;
+}
+
+main .about-site p{
+    text-align: center;
+    font-family: 'Cooper Black';
+    color: #b2d426;
+}
+/* --------x------ Site title --------x------- */
+
+main .about-site .section-body span{
+    font-size: 16px;
+}
+
+main .about-site h6{
+    color: #ffffff;
+    text-align: center;
+    animation-name: text-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes text-animation {
+  from {color: #ffffff;}
+  to {color: #b2d426;}
+}
+
+main .about-site h6:hover{
+    transform: ;
+}
+
+main .about-site .row img{
+    max-width: 100%;
+    min-height: 98%;
+    transition: transform .2s;
+}
+
+main .about-site .row img:hover {
+  transform: scale(1.2);
+}
+
+main .about-site .row video{
+    max-width: 100%;
+    height: 100%;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    background-color: #111111;
+}
+
+main .about-site .row video:hover{
+    transform: scale(1.2);
+}
+
+main .about-site .section-foot h2{
+    text-align: center;
+    color: #b2d426;
+    font-family: 'Bauhaus 93';
+    text-decoration: underline;
+}
+
+main .slide-content .abt-slide-title{
+    padding: 1rem 0;
+    background: #88a805;
+}
+
+/*---------------------x------------------------ About -------------------------x----------------------*/
+
+/*--------------------------------------------- Contact -----------------------------------------------*/
+/* --------------- Site title ---------------- */
+main .contact-site-title{
+    background: #1f1f1f;
+}
+
+main .contact-site-title .module-site-background{
+    text-align: center;
+}
+
+main .contact-site-title .row h1{
+    color: #b2d426;
+    line-height: 56px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: "Bauhaus 93";
+    font-size: 60px;
+}
+
+main .contact-site-title .row h5{
+    color: #b2d426;
+    line-height: 56px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: "Bauhaus 93";
+    text-transform: uppercase;
+}
+
+main .contact-site-title .form-control{
+    background: transparent;
+    color: #b2d426;
+}
+
+main .contact-site-title label{
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+main .contact-site-title .form-select{
+    background: transparent;
+    color: #b2d426;
+}
+
+main .contact-site-title option{
+    color: #000000;
+}
+
+main .contact-site-title .btn-contact{
+    background: transparent;
+    color: #b2d426;
+    border: solid;
+    border-color: #ffffff;
+    margin-bottom: 2rem;
+    padding: .7rem 2rem;
+    border-radius: 10px;
+}
+
+main .contact-site-title .btn-contact:hover{
+    background: #b2d426;
+    color: #ffffff;
+    border: solid;
+    border-color: #b2d426;
+    font-weight: bolder;
+}
+
+#left-box{
+    padding-right: 80px;
+}
+
+#contact-row{
+    margin-bottom: 30px;
+}
+
+main .contact-site-title .contact-icon{
+    width: 35px;
+    height: 35px;
+}
+
+main .contact-site-title .col-lg-11{
+    color: #ffffff;
+}
+
+main .contact-site-title .col-lg-11 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main .contact-site-title .col-lg-11 a:hover{
+    color: #b2d426;
+}
+
+main .contact-follow a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+main .contact-follow a:hover{
+    color: #b2d426;
+}
+
+
+/*socialMediaBtn*/
+.fa-facebook-square{
+    color: #4267B2;
+    margin-right: 10px;
+}
+.fa-instagram-square{
+    color: #8a3ab9;
+    margin-right: 10px;
+}
+.fa-twitter-square{
+    color: #1DA1F2;
+    margin-right: 10px;
+}
+.fa-youtube{
+    color: #FF0000;
+    margin-right: 10px;
+}
+
+
+/* --------x------ Site title --------x------- */
+/*--------------------------------------------- Contact ---------------------------------------------*/
+
+/*navFooter*/
+.btn-pre{
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+/*footer*/
+.footer{
+	margin-top: 20px;
+	width: 100%;
+	font-size: 15px;
+	background-color: #252525;
+	text-align: left;
+}
+.footer div span a{
+	color: #999999;
+	text-decoration: none;
+}
+.footer div span a:hover{
+	color: #e0e0e0;
+}
